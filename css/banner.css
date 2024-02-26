@@ -1,0 +1,275 @@
+.category {
+          background-color: #f2f2f2;
+          padding-top: 20px;
+          padding-bottom: 20px;  
+      }
+      
+      .category-wrap {
+            width: 1200px;
+            margin: auto;
+            background-color: white;
+      }
+      
+      .category-title {
+            text-align: left;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: 500;
+            color: gray;
+            margin-right: auto;
+      }
+      
+      .card > img {
+            width: 83px;
+      }
+      
+      .cards-box {
+            width: 100%;
+            justify-content: space-evenly;
+      }
+      
+      .card {
+            border: 0.5px solid #f2f2f2;
+            width: 120px;
+            box-sizing: border-box;
+            height: 120px;
+            text-align: center;
+      }
+      
+      .card:hover {
+            box-shadow: 0px 0px 5px 0px #f2f2f2;
+      }
+      
+      .banners {
+                padding-top: 20px;
+                padding-bottom: 10px;
+                border-bottom: 0.5px solid lightgray;
+      }
+      
+      .left-banners {
+              margin-right: 5px;
+      }
+      
+      .left-banners > img {
+            width: 800px;
+            border-radius: 2px;
+      }
+      
+      
+      .rolling-banner {
+      width: 815px;
+      border-radius: 2px;
+      }
+      
+      .right-banners > img {
+                width: 400px;
+                border-radius: 2px;
+                margin-bottom: 5px;
+      }
+      
+      .bottom-section {
+              width: 1200px;
+              justify-content: space-between;
+              align-items: flex-start;
+              margin-top: 20px;
+            
+      }
+      
+      .bottom-section > li {
+              width: 450px;
+              text-align: center;
+      
+              cursor: pointer;
+            
+      }
+      
+      
+      .bottom-section > li:hover > img {
+            width: 45px;
+            margin-bottom: 5px;
+      }
+      
+      .bottom-section > li > img {
+              width: 45px;
+              margin-bottom: 5px;
+      }
+      
+      body, h1, h2, p, div, input, a, li, ul, button {
+                margin: 0;
+                padding: 0;
+                font-size: 13px;
+                text-decoration: none;
+                list-style: none;
+                font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .flex-row {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+      }
+      
+      .flex-col {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+      }
+      
+      
+      .gnb {
+                background-color: #f53d2d;
+                padding: 10px;
+                color: white;
+      }
+      
+      .top, .bottom {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;    
+      
+                width: 1200px;
+                margin: auto;
+      }
+      
+      .top {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+      
+                width: 1200px;
+                margin-bottom: 20px;
+      }
+      
+      .left {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+      
+               
+               
+      }
+      
+      .left > li, .left > i {
+                margin-right: 5px;
+      }
+      
+      .right {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;    
+                
+                margin-left: auto;
+      }
+      
+      .right > li {
+                margin-right: 10px;
+      }
+      
+      .right > li > i {
+                margin-right: 5px;        
+      }
+      
+      .search {
+                margin-left: auto;
+                margin-right: auto;
+               
+      }
+      
+      .search-box {
+                width: 840px;
+                height: 40px;
+                background-color: white;
+                border-radius: 2px;
+                padding: 1px;
+      }
+      
+      .search-box > input {
+                width: 80%;
+                height: 35px;
+      
+                margin-right: auto;
+                border: none;
+      }
+      
+      .search-box > button {
+                 background-color: #f53d2d;
+                 color: white;
+                 width: 60px;
+                 height: 40px;
+                 border: none;
+                 border-radius: 2px;
+                 margin-right: 2px;
+      }
+      
+      .tags {
+              margin-top: 5px;  
+              width: 840px;
+      }
+      
+      .tags > li {
+                margin-right: 10px;
+      }
+      
+      
+      
+      .tags > li:last-child {
+                margin-right: auto;
+      }
+      
+      .cart {
+                font-size: 24px;
+                margin-right: 70px;
+                margin-left: 30px;
+      
+                
+      }
+      
+      .bottom > img {
+                margin-bottom: 10px;
+      }
+      
+      .swiper {
+             width: 800px;   
+      }
+      
+      .swiper-button-prev {
+            background-color: rgba(0,0,0,0.5);
+            padding: 5px;
+            left: 0;
+            display: none;
+      } 
+      
+      .swiper-button-next {
+            background-color: rgba(0,0,0,0.5);
+            padding: 5px;
+            right: 0;
+            display: none;
+            
+      }
+      
+      .swiper-button-next:after, .swiper-button-prev:after {
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+      }
+      
+      .swiper:hover > .swiper-button-prev, .swiper:hover > .swiper-button-next  {
+            display: flex;
+      }
+      
+      .swiper-pagination-bullet-active {
+            background-color: white;
+      }
+      
+      .floating {
+            position: fixed;
+            right: 100px;
+            bottom: 30px;
+      }
+      
